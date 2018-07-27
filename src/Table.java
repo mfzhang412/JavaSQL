@@ -122,14 +122,33 @@ public class Table {
 		return new Type[0];
 	}
 	
+	/**
+	 * Returns all records pertaining to the parameters.
+	 * This method will return all records that satisfy the parameters.
+	 * 
+	 * @param args	search parameters
+	 * @return		an array of records adhering to parameters
+	 */
 	public Record[] getRecords(String args[]) {
 		return new Record[0];
 	}
 	
+	/**
+	 * Insert a record with the values pass in.
+	 * 
+	 * @param args	record values
+	 * @return		the record just created
+	 */
 	public Record insertRecord(String args[]) {
 		return new Record();
 	}
 	
+	/**
+	 * Update an existing record with the values passed in.
+	 * 
+	 * @param args	values to update to
+	 * @return		the record after updating
+	 */
 	public Record updateRecord(String args[]) {
 		return new Record();
 	}
